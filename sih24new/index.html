@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Association Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AlumniConnect</div>
+            
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#register">Register</a></li>
+               
+            
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Alumni</a>
+                    <div class="dropdown-content">
+                        <a href="#donate">Donate</a>
+                        <a href="./job.html">Job Portal</a>
+                        <a href="#success-stories">Success Stories</a>
+                        <a href="#events">Events</a>
+                    
+                    </div>
+                </li>
+         
+                <li><a href="#about">About Us</a></li>
+            
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <span>
+                <img width="600", src="Screenshot 2024-09-05 171056.png" alt=""
+              /></span>
+            <p>Where connections last a lifetime.</p>
+            <a href="#register" class="cta-button">Join Now</a>
+        </div>
+    </section>
+
+    
+
+    <section id="register" class="section">
+        <h2>Alumni Registration</h2>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="graduation-year">Graduation Year:</label>
+                <input type="number" id="graduation-year" name="graduation-year" required>
+            </div>
+
+            <div class="form-group">
+                <label for="field-of-study">Field of Study:</label>
+                <input type="text" id="field-of-study" name="field-of-study" required>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit" class="submit-button">Register</button>
+        </form>
+    </section>
+
+    <section id="donate" class="section">
+        <h2>Donate to Support Your College</h2>
+        <p>Your contributions help support various initiatives and projects.</p>
+        <form id="donation-form">
+            <div class="form-group">
+                <label for="donation-amount">Donation Amount:</label>
+                <input type="number" id="donation-amount" name="donation-amount" required>
+            </div>
+
+            <div class="form-group">
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="debit-card">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-button">Donate Now</button>
+        </form>
+    </section>
+
+    
+    <section id="job-portal" class="section">
+        <h2>Job Portal</h2>
+        <p>Explore career opportunities within the alumni network.</p>
+        <button class="cta-button" onclick="alert('Job portal feature coming soon!')">Visit Job Portal</button>
+    </section>
+
+    <section id="success-stories" class="section">
+        <h2>Success Stories</h2>
+        <p>Read inspiring stories of our alumni who have made significant contributions to society.</p>
+        <button class="cta-button" onclick="alert('Success Stories feature coming soon!')">View Success Stories</button>
+    </section>
+
+    <section id="events" class="section">
+        <h2>Upcoming Events</h2>
+        <p>Stay tuned for upcoming alumni events and reunions.</p>
+        <button class="cta-button" onclick="alert('Events feature coming soon!')">View Events</button>
+    </section>
+    
+       <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>AlumniConnect is a platform dedicated to connecting alumni, sharing success stories, and providing opportunities for professional growth and contribution to the alma mater.</p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 AlumniConnect. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
