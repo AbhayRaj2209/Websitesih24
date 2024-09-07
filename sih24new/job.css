@@ -1,0 +1,40 @@
+#job-portal {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4682b4; /* Steel blue border */
+}
+
+#job-portal h2 {
+    font-size: 32px;
+    color: #4682b4; /* Steel blue */
+    margin-bottom: 20px;
+}
+
+#job-portal p {
+    font-size: 18px;
+    color: #333333; /* Dark gray */
+    margin-bottom: 30px;
+}
+
+#job-portal .cta-button {
+    background-color: #ff4500; /* Red */
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#job-portal .cta-button:hover {
+    background-color: #ff6347; /* Lighter red on hover */
+}
+
+#job-portal .cta-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4682b4; /* Blue glow when focused */
+}
