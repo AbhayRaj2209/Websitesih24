@@ -1,1 +1,1 @@
-# Websitesih24
+In this project we have tried to create the frontend part of the website i.e alumini meet/ alumini connect . Through which they can connect to their respective college and can support in term of their own capabilities and theres lot of option in the website about section , donation section , batch meet section and etc . We are trying to extend this project to the backend , database side more effectevely and will try try to shift all frontend part in to frontend framework i.e ReactJS.
